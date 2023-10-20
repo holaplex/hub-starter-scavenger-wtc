@@ -23,7 +23,7 @@ export default function Session({ children }: { children: React.ReactNode }) {
     <>
       <header className='flex w-full justify-between items-center py-4'>
         <Link href='/'>
-          <Image src='/img/logo.png' alt='site logo' width={200} height={79} />
+          <Image src='/img/WTC_LOGOMAIN.png' alt='site logo' width={200} height={79} />
         </Link>
         {me ? (
           <PopoverBox
