@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cta: '#F6D357',
-        backdrop: '#1A1A1D',
+        cta: '#e6bc2c',
+        backdrop: '#1b2940',
         contrast: ' #212122',
         subtletext: '#BDBDBD'
       }
