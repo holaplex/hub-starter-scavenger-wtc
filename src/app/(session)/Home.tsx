@@ -42,7 +42,7 @@ export default function Home({ session }: HomeProps) {
 
   return (
     <>
-      <img src="/img/hero.png" className="w-36 aspect-square object-cover" />
+      <img src="/img/WTC_LOGO__MEETCHINATOWNFULLCOLOR.png" className="w-36 aspect-square object-cover" />
       <h1 className="text-2xl text-white mt-12 text-center">
         Collect [n] NFTs to be entered into our raffle for a [prize]!
       </h1>
