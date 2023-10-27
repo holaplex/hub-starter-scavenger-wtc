@@ -44,13 +44,13 @@ export default function Home({ session }: HomeProps) {
     <>
       <img src="/img/WTC_LOGO__MEETCHINATOWNFULLCOLOR.png" className="w-36 aspect-square object-cover" />
       <h1 className="text-2xl text-white mt-12 text-left">
-      It's back! MEET CHINATOWN Fall Fest edition is taking place October 28 - 29 from 11A to 6P. It's easy to sign up and play! 
+      It&apos;s back! MEET CHINATOWN Fall Fest edition is taking place October 28 - 29 from 11A to 6P. It&apos;s easy to sign up and play! 
       <br></br><br></br>
       <div><b>How to Play</b>
       <ul>
         <li>1. Create your wallet to get started.</li>
         <li>2. Review the list of actions and participating businesses. Not sure where things are located? Review our MEET CHINATOWN digital directory at the bottom of this page.</li>
-        <li>3. Complete the actions around Chinatown. Make sure to scan each QR code and collect the badge as proof you've completed the action. Once you've collected a badge, it'll be lit up in your wallet.</li>
+        <li>3. Complete the actions around Chinatown. Make sure to scan each QR code and collect the badge as proof you&apos;ve completed the action. Once you&apos;ve collected a badge, it&apos;ll be lit up in your wallet.</li>
         <li>4. Done playing? Visit our Hub (at 115 Bowery) during Fall Fest hours (11A to 6P) to redeem prizes from our MEET CHINATOWN marketplace.</li>
       </ul>
       </div>
@@ -59,7 +59,7 @@ export default function Home({ session }: HomeProps) {
       <b>Rules:</b>
       <ul>
         <li>- You can only play October 28 - 29, 2023 from 11:00 AM to 6:00 PM EST</li>
-        <li>- By participating, you agree to Welcome to Chinatown's Privacy Policy</li>
+        <li>- By participating, you agree to Welcome to Chinatown&apos;s Privacy Policy</li>
         <li>- One play per person throughout the duration of Fall Fest</li>
         <li>- Regardless of how many points earned, each person can only redeem two prizes in total at our MEET CHINATOWN marketplace</li>
         <li>- Points and badges earned in this scavenger hunt game hold no monetary value. They are purely for the purpose of competition, fun, and recognition within the game. Participants should not expect any form of financial compensation or rewards in exchange for their points or badges.</li>
