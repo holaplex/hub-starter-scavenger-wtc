@@ -43,11 +43,27 @@ export default function Home({ session }: HomeProps) {
   return (
     <>
       <img src="/img/WTC_LOGO__MEETCHINATOWNFULLCOLOR.png" className="w-36 aspect-square object-cover" />
-      <h1 className="text-2xl text-white mt-12 text-center">
-        Collect [n] NFTs to be entered into our raffle for a [prize]!
+      <h1 className="text-2xl text-white mt-12 text-left">
+      It's back! MEET CHINATOWN Fall Fest edition is taking place October 28 - 29 from 11A to 6P. It's easy to sign up and play! 
+      <br></br><br></br>
+      <div><b>How to Play</b>
+      <ul>
+        <li>1. Create your wallet to get started.</li>
+        <li>2. Review the list of actions and participating businesses. Not sure where things are located? Review our MEET CHINATOWN digital directory at the bottom of this page.</li>
+        <li>3. Complete the actions around Chinatown. Make sure to scan each QR code and collect the badge as proof you've completed the action. Once you've collected a badge, it'll be lit up in your wallet.</li>
+        <li>4. Done playing? Visit our Hub (at 115 Bowery) during Fall Fest hours (11A to 6P) to redeem prizes from our MEET CHINATOWN marketplace.</li>
+      </ul>
+      </div>
       </h1>
-      <p className="text-gray-300 my-6 text-center">
-        [Rules for collecting NFTs]
+      <p className="text-gray-300 my-6 text-left">
+      <b>Rules:</b>
+      <ul>
+        <li>- You can only play October 28 - 29, 2023 from 11:00 AM to 6:00 PM EST</li>
+        <li>- By participating, you agree to Welcome to Chinatown's Privacy Policy</li>
+        <li>- One play per person throughout the duration of Fall Fest</li>
+        <li>- Regardless of how many points earned, each person can only redeem two prizes in total at our MEET CHINATOWN marketplace</li>
+        <li>- Points and badges earned in this scavenger hunt game hold no monetary value. They are purely for the purpose of competition, fun, and recognition within the game. Participants should not expect any form of financial compensation or rewards in exchange for their points or badges.</li>
+      </ul>
       </p>
       <div className="w-full grid grid-cols-4 gap-4">
         {homePageQuery.loading ? (
@@ -120,17 +136,18 @@ export default function Home({ session }: HomeProps) {
         ) : (
           <>
             <span className="text-xs md:text-base text-gray-300">
-              Sign up to claim your NFT
+              Log in to view your badges
             </span>
             <Link
               href="/login"
               className="font-bold rounded-full bg-cta text-contrast py-3 px-6 transition hover:opacity-80"
             >
-              Claim now
+              Log in
             </Link>
           </>
         )}
       </div>
+      <iframe width="100%" src="https://viewer.mapme.com/welcome-to-chinatown" className="w-full aspect-video"></iframe>
     </>
   );
 }
