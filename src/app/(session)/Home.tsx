@@ -71,6 +71,7 @@ export default function Home({ session }: HomeProps) {
           )}
         </Disclosure>
       </div>
+      <img src="/img/info.png" className="aspect-square object-cover" />
       <div className="w-full">
         <p className="text-gray-300 my-6 text-left">
           <Disclosure>
